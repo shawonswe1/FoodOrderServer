@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageButton
+        android:id="@+id/imageButtonID"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/picture"
+        android:layout_gravity="right"/>
+
+    <ImageView
+        android:id="@+id/imageID"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:id="@+id/categoryNameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Categoty Name"
+        android:textAlignment="center"
+        android:layout_margin="5dp"
+        />
+
+</LinearLayout>

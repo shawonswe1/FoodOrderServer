@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <ImageButton
+        android:id="@+id/addFood"
+        android:background="@drawable/picture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginBottom="5dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/foodImage"
+        android:background="#E7E9C8"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Food Name"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/priceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Food Price"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/discountText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Discount"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

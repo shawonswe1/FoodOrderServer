@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+
+    <item android:icon="@drawable/catagory"
+        android:title="Add Categories"
+        android:id="@+id/catagory"/>
+
+    <item android:icon="@drawable/logout"
+        android:title="Log Out"
+        android:id="@+id/logout"/>
+</menu>
