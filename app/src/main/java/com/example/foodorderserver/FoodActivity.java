@@ -77,7 +77,7 @@ public class FoodActivity extends AppCompatActivity {
         final String selectedKey = intent.getStringExtra(HomeActivity.EXTRA_TEXT);
         //-----------------------------------//
 
-        //.........................................//
+        //Firebase Instance.........................................//
         firebaseAuth = FirebaseAuth.getInstance();
         foodDatabase = FirebaseDatabase.getInstance().getReference().child("Food Order").child("Food").child(selectedKey);
         fStorageRef = FirebaseStorage.getInstance().getReference().child("Food Order").child("Food");

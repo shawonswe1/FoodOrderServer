@@ -325,6 +325,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         startActivity(intent);
         finish();
     }
+
+
     // One Click Method........................
     @Override
     public void onItemClick(int position) {
